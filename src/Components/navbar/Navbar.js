@@ -1,32 +1,39 @@
-import React, { useState } from 'react';
-import * as S from './Navbar.style';
+import React, { useState } from "react";
+import * as S from "./Navbar.styles";
 
 const Navbar = () => {
-
   const [showMenuBurguer, setShowMenuBurguer] = useState(false);
 
-  console.log(showMenuBurguer);
+  const clickItemNav = (item) => {
+    console.log(item);
+    document.getElementById(item).scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <S.ContainerNavbar>  
+    <S.ContainerNavbar>
       <S.ContainerLogo>
-        <S.ImageLogo src='/img/LOGO ANTHONY.png' alt='logo anthony martinez' />
+        <S.ImageLogo  src="/img/ANTHONY DEVELOPER 1.png" alt="logo thonix developer"/>
         <div>
           <h1>Anthony Martínez</h1>
           <h2>Frontend Developer</h2>
         </div>
       </S.ContainerLogo>
+
       <S.ContainerBurguer onClick={() => setShowMenuBurguer(!showMenuBurguer)}>
         <S.BurguerMenu />
         <S.BurguerMenu />
         <S.BurguerMenu />
       </S.ContainerBurguer>
-      <S.ContainerItems showMenuBurguer={showMenuBurguer}>
-        <p>About me</p>
-        <p>Proyects</p>
-        <S.Button>Contact Me 🖖</S.Button>
-      </S.ContainerItems>     
-    </S.ContainerNavbar>
- ); 
-}
 
-export default Navbar
+      <S.ContainerItems showMenuBurguer={showMenuBurguer}>
+        <p onClick={() => clickItemNav("about-me")}>About me</p>
+        <p onClick={() => clickItemNav("projects")}>Projects</p>
+        <S.Button onClick={() => clickItemNav("contact")}>
+          🤙 Contact me
+        </S.Button>
+      </S.ContainerItems>
+    </S.ContainerNavbar>
+  );
+};
+
+export default Navbar;
