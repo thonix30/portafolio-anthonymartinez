@@ -43,7 +43,7 @@ const AboutMe = () => {
           <S.DescriptionText>
             <p>Mi nombre es Anthony Alva Martinez tengo 24 años de edad, soy de Huehuetenango-Guatemala. Soy amante de la naturaleza, deporte, arte y sobre todo la informatica. </p>
 
-            <p>Me enfoco en el desarrollo web, ya que me gusta mucho la visual que es el FrontEnd, tengo conocimientos solidos tanto de Frontend como backend, me gustaria tener la oportunidad de laborar en una empresa informatica para desarrollar mis habilidades, como para poner en practica mis conocimientos y adquirir nuevos. </p>
+            <p>Me enfoco en el desarrollo web, ya que me gusta mucho lo visual que es el FrontEnd, tengo conocimientos solidos tanto de Frontend como backend, me gustaria tener la oportunidad de laborar en una empresa informatica para desarrollar mis habilidades, como para poner en practica mis conocimientos e adquirir nuevos. </p>
           </S.DescriptionText>
           <S.ContainerIcons>
             {socialNetworks.map((network, index) => (
