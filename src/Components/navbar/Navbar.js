@@ -5,7 +5,6 @@ const Navbar = () => {
   const [showMenuBurguer, setShowMenuBurguer] = useState(false);
 
   const clickItemNav = (item) => {
-    console.log(item);
     document.getElementById(item).scrollIntoView({ behavior: "smooth" });
   };
 
