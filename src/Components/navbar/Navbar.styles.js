@@ -88,7 +88,7 @@ export const ContainerBurguer = styled.div`
 
 export const BurguerMenu = styled.div`
   width: 35px;
-  height: 2px;
+  height: 4px;
   background-color: ${colors.TEXT_BLACK};
   margin: 6px 0;
 `;

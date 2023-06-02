@@ -98,12 +98,14 @@ export const ContainerTech = styled.div`
 
 export const Description = styled.div`
     margin-top: 0 ;
+    justify-content:center;
     
 `;
 
 export const ContainerFooter = styled.div`
     display: flex;
-    margin-top: 10px;  
+    margin-top: 15px; 
+    justify-content:center; 
      
     
     img{

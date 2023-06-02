@@ -1,3 +1,6 @@
+
+import htmlImage from "../../images/techs/html.png";
+import javaImage from "../../images/techs/Javascript.png";
 import chakraImage from "../../images/techs/chakra.png";
 import reactBootstrapImage from "../../images/techs/react-bootstrap.png";
 import reactRouterdomImage from "../../images/techs/react-router-dom.png";
@@ -13,6 +16,8 @@ import gasolineraProject from "../../images/projects/gasolinera.jpg";
 import marvelProject from "../../images/projects/marvel.jpg";
 import rickMorty from "../../images/projects/rick-morty.jpg";
 import tareasProject from "../../images/projects/todo.jpg";
+import festivalgt from "../../images/projects/festivalgt.jpg";
+import blogcafe from "../../images/projects/blogcafe.jpg";
 
 export const projectsPortfolio = [
   {
@@ -25,7 +30,7 @@ export const projectsPortfolio = [
     description:
       " Aplicacion creada con ReactJS y CSS para realizar peticiones  a la API externa de Rick and Morty.",
     repository: "https://https://https://github.com/thonix30/rickandmorty-proyect-api",
-    website: "https://rickandmorty-react-api-thonix30.netlify.app",
+    website: "https://rickandmorty-apii.netlify.app",
   },
   {
     title: "Listado Tareas",
@@ -36,8 +41,8 @@ export const projectsPortfolio = [
     ],
     description:
       "Aplicación creada con React JS y Semantic UI para hacer una lista de tareas donde puedes agregarla o quitarla utilizando Local Storage",
-    repository: "https://github.com/ratasi/todolist-udemy",
-    website: "#!",
+    repository: "https://github.com/thonix30/lista-de-tareas-React",
+    website: "https://list-tareas-thonix30.netlify.app",
   },
   {
     title: "Simpson API",
@@ -48,7 +53,7 @@ export const projectsPortfolio = [
     ],
     description:
       "Aplicación creada con React JS y Styled Components para realizar una solicitud a una API externa de Simpsons.",
-    repository: "https://github.com/ratasi/simpson-phrases",
+    repository: "",
     website: "#!",
   },
   {
@@ -62,7 +67,7 @@ export const projectsPortfolio = [
     ],
     description:
       "Aplicación creada con React JS, React Router y Sass para realizar una solicitud a una API externa de Marvel.",
-    repository: "https://github.com/ratasi/marvel-react",
+    repository: "",
     website: "#!",
   },
   {
@@ -74,8 +79,8 @@ export const projectsPortfolio = [
     ],
     description:
       "Aplicación de una landing page creada con React JS y React Bootstrap para hacer un formulario con campos dinámicos.",
-    repository: "https://github.com/ratasi/dynamic-form-project",
-    website: "#!",
+    repository: "https://github.com/thonix30/formulario-dinamico",
+    website: "https://formulario-dinamico.netlify.app",
   },
   {
     title: "Estacion de Gasolina",
@@ -87,7 +92,34 @@ export const projectsPortfolio = [
     ],
     description:
       "Aplicación creada con Vite donde puedes guardar la información y verla en un resumen",
-    repository: "https://github.com/ratasi/gasolinera-react-vite",
+    repository: "https://github.com/thonix30/gasolinera-react-vite",
     website: "#!",
   },
+  {
+    title: "Rock & Indie Festival GT",
+    image: festivalgt,
+    techs: [
+      { name: " CSS", src: cssImage },
+      { name: "HTML", src: htmlImage },
+      { name: "JavaScript", src: javaImage },
+    ],
+    description:
+      "Aplicación creada con css, html y javascript para ver actividades de un festival de musica en Guatemala, donde podemos ver la lista de grupos y cantantes que se presentaran",
+    repository: "",
+    website: "https://festivalgt-thonix30.netlify.app",
+  },
+  {
+    title: "Blog del Cafe",
+    image: blogcafe,
+    techs: [
+      { name: "CSS", src: cssImage  },
+      { name: "HTML", src: htmlImage },
+      
+    ],
+    description:
+      "Aplicación creada con css y html para ver informacion sobre una pagina de cafe donde podemos ver tipos de cafes y su historia.",
+    repository: "",
+    website: "https://blogdecafe-thonix30.netlify.app",
+  },
+  
 ];

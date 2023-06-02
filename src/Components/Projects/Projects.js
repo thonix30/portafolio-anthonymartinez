@@ -9,7 +9,7 @@ import logoWebsite from '../../svg/website.svg';
 const Projects = ()=> {
   return (
     <S.ContainerProjects id='projects'>
-        <S.Title>Some of <br/><span>My projects</span></S.Title>
+        <S.Title>Algunos de mis <br/><span> Proyectos</span></S.Title>
         <S.ContentProject>
           {projectsPortfolio.map((project, index)=>(
             <S.ProjectContent key={index}>

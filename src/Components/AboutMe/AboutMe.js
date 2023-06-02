@@ -36,14 +36,20 @@ const AboutMe = () => {
       <S.ContainerFlex>
         <S.ContainerText>
           <S.Title>
-            <p>🖖 Hello, i'm</p>
+            <p>🖖 Hola, soy</p>
             <p>Anthony Martínez</p>
             <p>Frontend Developer</p>
           </S.Title>
           <S.DescriptionText>
             <p>Mi nombre es Anthony Alva Martinez tengo 24 años de edad, soy de Huehuetenango-Guatemala. Soy amante de la naturaleza, deporte, arte y sobre todo la informatica. </p>
-
-            <p>Me enfoco en el desarrollo web, ya que me gusta mucho lo visual que es el FrontEnd, tengo conocimientos solidos tanto de Frontend como backend, me gustaria tener la oportunidad de laborar en una empresa informatica para desarrollar mis habilidades, como para poner en practica mis conocimientos e adquirir nuevos. </p>
+            <h2>Perfil</h2>
+            <p>Ser parte de una empresa en la
+que pueda aplicar mis
+conocimientos, la cual me brinde la
+oportunidad de alcanzar mis metas
+y me permita crecer en el área
+laboral, personal e intelectual.
+ </p>
           </S.DescriptionText>
           <S.ContainerIcons>
             {socialNetworks.map((network, index) => (

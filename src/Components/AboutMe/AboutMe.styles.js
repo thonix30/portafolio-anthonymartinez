@@ -52,6 +52,11 @@ export const DescriptionText = styled.div`
   @media (max-width: 768px) {
     padding-right: 0;
   }
+  h2 {
+    color: ${colors.TEXT_BLACK}
+    
+    
+  }
 `;
 
 export const ContainerIcons = styled.div`

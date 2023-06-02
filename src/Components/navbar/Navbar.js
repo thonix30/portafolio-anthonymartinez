@@ -25,10 +25,10 @@ const Navbar = () => {
       </S.ContainerBurguer>
 
       <S.ContainerItems showMenuBurguer={showMenuBurguer}>
-        <p onClick={() => clickItemNav("about-me")}>About me</p>
-        <p onClick={() => clickItemNav("projects")}>Projects</p>
+        <p onClick={() => clickItemNav("about-me")}>Acerca de mi</p>
+        <p onClick={() => clickItemNav("projects")}>Proyectos</p>
         <S.Button onClick={() => clickItemNav("contact")}>
-          🤙 Contact me
+          🤙 Contactame
         </S.Button>
       </S.ContainerItems>
     </S.ContainerNavbar>
